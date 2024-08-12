@@ -18,3 +18,112 @@
         <p class="titulo">Driven Eats</p>
         <p class="subtitulo">Sua comida em 6 minutos</p>
     </header>
+<p class="categoria1">Primeiro, seu prato</p>
+    <div class="pratos" data-identifier="comidas">
+        <button onclick="selecionarPrato('prato1', 19.90, 'PF Calabresa')" class="prato1 opcao"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/prato1.png" alt="Prato 1" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-comida">PF Calabresa</p>
+            <p class="legenda-opcao">Prato de pedreiro</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 19,90</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+        <button onclick="selecionarPrato('prato2', 19.90, 'PF Frango')" class="prato2 opcao"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/prato2.jpg" alt="Prato 2" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-comida">PF Frango</p>
+            <p class="legenda-opcao">Prato de pedreiro</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 19,90</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+        <button onclick="selecionarPrato('prato3', 19.90, 'PF Carne')" class="prato3 opcao"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/prato3.jpg" alt="Prato 3" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-comida">PF Carne</p>
+            <p class="legenda-opcao">Prato de pedreiro</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 19,90</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+    </div>
+    <p class="categorias">Agora, sua bebida</p>
+    <div class="pratos" data-identifier="bebidas">
+        <button onclick="selecionarBebida('bebida1', 8.90, 'Coca em Lata')" class="bebida1 opcao"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/bebida1.png" alt="Bebida 1" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-bebida">Coca Cola</p>
+            <p class="legenda-opcao">Lata 350ml</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 8,90</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+        <button onclick="selecionarBebida('bebida2', 8.90, 'Fanta em Lata')" class="bebida2 opcao"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/bebida2.png" alt="Bebida 2" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-bebida">Fanta</p>
+            <p class="legenda-opcao">Lata 350ml</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 8,90</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+        <button onclick="selecionarBebida('bebida3', 6.50, 'Suco Laranja')" class="bebida3 opcao"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/bebida3.png" alt="Bebida 3" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-bebida">Suco de Laranja</p>
+            <p class="legenda-opcao">Copo 500ml</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 6,50</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+    </div>
+    <p class="categorias">Por fim, sua sobremesa</p>
+    <div class="pratos" data-identifier="sobremesas">
+        <button onclick="selecionarSobremesa('sobremesa1', 14.90, 'Mousse Maracujá')" class="sobremesa1 opcao2"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/sobremesa1.jpg" alt="Sobremesa 1" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-sobremesa">Mousse Maracujá</p>
+            <p class="legenda-opcao">Delicioso mousse de maracujá</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 14,90</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+        <button onclick="selecionarSobremesa('sobremesa2', 20.00, 'Pudim de Leite')" class="sobremesa2 opcao2"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/sobremesa2.jpg" alt="Sobremesa 2" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-sobremesa">Pudim de Leite</p>
+            <p class="legenda-opcao">Delicioso pudim de leite</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 20,00</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+        <button onclick="selecionarSobremesa('sobremesa3', 15.50, 'Brownie de Chocolate')" class="sobremesa3 opcao2"
+            data-identifier="opcoes-comida">
+            <img src="./arquivos/sobremesa3.jpg" alt="Sobremesa 3" class="foto-opcao" />
+            <p class="titulo-opcao" data-identifier="titulo-sobremesa">Brownie Choco.</p>
+            <p class="legenda-opcao">Delicioso brownie de chocolate</p>
+            <p class="preco-opcao" data-identifier="preco-comida">R$ 15,90</p>
+            <ion-icon class="checkIcone" name="checkmark-circle-outline"></ion-icon>
+        </button>
+    </div>
+    <footer>
+        <button class="fecharPedido" onclick="caixaConfirmar()">Selecione os 3 itens para fechar o pedido</button>
+    </footer>
+    <div class="caixaConfirmacao caixaEscondida" data-identifier="dialogo-confirmacao">
+        <p class="tituloConfirmacao"><b>Confirme seu pedido</b></p>
+        <div class="escolha">
+            <p class="opcaoPrato">Comida</p>
+            <p class="precoPrato">R$ 0,00</p>
+        </div>
+        <div class="escolha">
+            <p class="opcaoBebida">Bebida</p>
+            <p class="precoBebida">R$ 0,00</p>
+        </div>
+        <div class="escolha">
+            <p class="opcaoSobremesa">Sobremesa</p>
+            <p class="precoSobremesa">R$ 0,00</p>
+        </div>
+        <div class="escolha total">
+            <p class="total">TOTAL</p>
+            <p class="precoTotal">R$ 0,00</p>
+        </div>
+        <button class="pedir" onclick="pedir()">Tudo certo, pode pedir!</button>
+        <p class="cancelar" onclick="cancelar()">Cancelar</p>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons.js"></script>
+</body>
+</html>
